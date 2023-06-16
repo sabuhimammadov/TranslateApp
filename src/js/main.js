@@ -17,7 +17,7 @@ const text = $(".form-control").val()
 if(language == "es" && text){
     $("#flag").attr("src" ,"./src/assents/images/es.png")
     $("#paragraph").text("Spanish")
-}else if(language == "ge" && text){
+}else if(language == "de" && text){
     $("#flag").attr("src" ,"./src/assents/images/ge.png")
     $("#paragraph").text("German")
 
